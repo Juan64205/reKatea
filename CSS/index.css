@@ -1,0 +1,45 @@
+header {
+    background-color: black;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+
+}
+
+.menu {
+    width: 900px;
+}
+
+.inputdebarra {
+    margin-left: 500px;
+    padding: 20px;
+    width: 50px;
+    border-radius: 4px;
+}
+
+.logo {
+    width: 250px;
+    height: 50px;
+    float: left;
+    padding: 8px;
+}
+
+.compraCar {
+    height: 30px;
+    float: left;
+    padding: 16px;
+    text-align: end;
+}
+
+.perfil {
+    height: 30px;
+    float: left;
+    padding: 16px;
+    text-align: end;
+}
+
+.carrusel {
+    width: 1309px;
+    height: 260px;
+}
