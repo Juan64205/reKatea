@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="https://kit.fontawesome.com/497e5218a3.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Registrate a Rekatear.com</h1>
+                <div class="social-container">
+                    <a href="#" class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social">
+                        <img class="logoGoogle" src="../images/google.png" width="30">
+                    </a>
+                </div>
+                <span>Ingresa con tu correo!</span>
+                <input type="text" placeholder="Nombre" />
+                <input type="email" placeholder="Correo" />
+                <input type="password" placeholder="Contraseña" />
+                <button>Registrate</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Ingresa a Rekatear.com</h1>
+                <div class="social-container">
+                    <a href="#" class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social">
+                        <img class="logoGoogle" src="../images/google.png">
+                    </a>
+                </div>
+                <span>Ingresa con tu correo</span>
+                <input type="email" placeholder="Correo" />
+                <input type="password" placeholder="Contraseña" />
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <button>Ingresa</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>¡Hola, amigo!</h1>
+                    <img class="imagenLogo" src="../images/reakatear_logo_blanco.png" />
+                    <button class="ghost" id="signIn">Inicia Sesion</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>¡Bienvenid@</h1>
+                    <img class="imagenLogo" src="../images/reakatear_logo_blanco.png"/>
+                    <button class="ghost" id="signUp">Registrate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="../js/login.js" charset="utf-8"></script>
+</body>
+
+</html>
