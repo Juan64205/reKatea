@@ -1,3 +1,13 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 header {
     background-color: black;
     width: 100%;
@@ -9,13 +19,16 @@ header {
 
 .menu {
     width: 900px;
+    
 }
 
-.inputdebarra {
-    margin-left: 500px;
-    padding: 20px;
-    width: 50px;
+.icono-buscar {
+    margin-left: 160px;
+    padding: 10px;
+    height: 10px;
+    width: 200px;
     border-radius: 4px;
+    
 }
 
 .logo {
@@ -36,10 +49,25 @@ header {
     height: 30px;
     float: left;
     padding: 16px;
-    text-align: end;
 }
 
 .carrusel {
-    width: 1309px;
+    width: 100%;
     height: 260px;
 }
+
+.footer {
+    background-color: black;
+    padding: 1em 0;
+    color: aliceblue;
+    margin-top: auto;
+}
+
+p {
+    text-align: center;
+}
+
+.creditos {
+    text-align: left;
+}
+
