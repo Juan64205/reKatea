@@ -160,7 +160,8 @@ body {
     /*box-shadow: 2px 1px 8px rgb(156, 156, 156);*/
     border-radius: 15px;
     border: solid rgba(78, 78, 247, 0);
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
 }
 
 .promos:hover {
@@ -211,7 +212,7 @@ body {
 }
 
 .footer-pag{
-    margin-top: auto;
+    margin-top: 100px;
     padding: 1em 0;
     background-color: #121212;
 }
