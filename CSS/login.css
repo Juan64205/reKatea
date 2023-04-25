@@ -44,6 +44,14 @@ a {
     margin: 15px 0;
 }
 
+.volver{
+    font-weight: 900;
+    font-size: small;
+    letter-spacing: 0.040em;
+    color: white;
+    text-decoration: none;
+}
+
 button {
     border-radius: 20px;
     border: 1px solid #9eb7ac;
