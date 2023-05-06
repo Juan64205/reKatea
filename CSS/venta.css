@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.menu {
+    align-self: start;
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    /* es para correr la imagen */
+    align-items: center;
+    padding-right: 100px;
+}
+
+.principal {
+    background-color: #121212;
+    /* height: 12vh; */
+    background-size: 150% 150%;
+    background-repeat: no-repeat;
+    display: grid;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 200px;
+}
+
+.navegation a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+}
+
+.content {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.searchBox {
+    display: grid;
+    grid-template-columns: 5% auto 5% 5%;
+    /* Para crear las columnas */
+    grid-template-rows: 0% 5%;
+    margin-bottom: 15px; 
+}
+
+.searchBox form {
+    grid-column: 1/5;
+    grid-row: 3/3;
+    position: relative;
+    display: flex;
+    height: 40px;
+}
+
+.searchBox form input[type="text"] {
+    flex: 1;
+    /* propiedad -> largo */
+    border-radius: 10px;
+    border: none;
+    /*background-image: url(../Img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: calc(1% + 10px) calc(1% + 4px);*/
+    padding-right: 90px;
+    padding-left: 50px;
+    font-size: 16px;
+    background-size: 30px;
+}
+
+.searchBox form input[type="submit"] {
+    position: absolute;
+    /*right: 10px;*/
+    /*top: 6px;*/
+    /* background-color: #da595e; */
+    background-color: #69907F;
+    background-image: url(../images/lupa.png);
+    background-repeat: no-repeat;
+    background-position: calc(1% + 5px) calc(1% + 3px);
+    background-size: 35px;
+    border: none;
+    padding: 13px 23px;
+    font-size: 12px;
+    /*text-transform: uppercase;*/
+    border-radius: 10px 0px 0px 10px;
+    /*color: white;*/
+}
+
+.searchBox form input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #5c7e6f;
+}
