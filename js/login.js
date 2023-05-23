@@ -44,7 +44,7 @@ $(document).ready(function () {
             var email = $(this).val();
 
             if ($(this).val().length == '') {
-                $(this).siblings('span.error').text('Por favor escriba su dirección de correo electrónico').fadeIn().parent('.form-group').addClass('hasError');
+                $(this).siblings('span.error').text('Por favor escriba su correo ').fadeIn().parent('.form-group').addClass('hasError');
                 emailError = true;
             } else if (!emailRegex.test(email)) {
                 $(this).siblings('span.error').text('Por favor, ingrese un correo electrónico válido').fadeIn().parent('.form-group').addClass('hasError');
