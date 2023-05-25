@@ -340,6 +340,21 @@ body {
 }
 
 @media screen and (max-width:800px) {
+    .footer-pag .team-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+
+    .v-line_2 {
+        display: none;
+    }
+
+    .v-line_1 {
+        display: none;
+    }
+    
     .navbarResponsive {
         display: block;
     }
