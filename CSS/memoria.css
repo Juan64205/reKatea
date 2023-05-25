@@ -10,9 +10,6 @@ html {
     box-sizing: inherit;
 }
 
-@media (max-width: 1200px) {
-    
-}
 
 body {
     margin: 0;
@@ -287,3 +284,35 @@ body {
     }
 }
 
+.bg-dark {
+    background-color: #121212 !important;
+}
+
+[data-bs-theme="dark"] {
+    --bs-body-color: #fff;
+    --bs-body-color-rgb: rgba(255, 255, 255, 1);
+    --bs-body-bg: #121212;
+    --bs-body-bg-rgb: rgba(18, 18, 18, 1);
+    --bs-tertiary-bg: #121212;
+
+    .dropdown-menu {
+        --bs-dropdown-bg: #121212;
+        --bs-dropdown-link-active-bg: rgba(0, 0, 0, 0.1);
+    }
+}
+
+.navbarResponsive {
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .navbarResponsive {
+        display: block;
+    }
+}
+
+@media (max-width: 801px) {
+    .menu {
+        display: none;
+    }
+}
