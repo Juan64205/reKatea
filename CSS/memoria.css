@@ -113,9 +113,10 @@ body {
 }
 
 .device {
+    padding: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
-    margin-left: 3%; 
+    margin-left: 1%; 
 }
 
 .moneyAfther {
@@ -187,7 +188,7 @@ body {
 
 .information {
     width: 700px;
-    height: 510px;
+    height: 535px;
     border-radius: 15px;
     background: #F5F5F5;
     margin-left: 0;
